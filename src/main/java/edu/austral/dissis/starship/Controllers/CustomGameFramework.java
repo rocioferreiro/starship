@@ -21,7 +21,7 @@ public class CustomGameFramework implements GameFramework, GameFlow {
     private World world;
     private UIController uiController;
     private final Spawner spawner = new Spawner();
-    private int asteroidTime = 2000;
+    private int asteroidTime = 500;
     private int powerUpTime = 10000;
     private ImageLoader imageLoader;
     @Override
